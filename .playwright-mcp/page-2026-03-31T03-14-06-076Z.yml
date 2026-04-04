@@ -1,0 +1,206 @@
+- generic:
+  - generic:
+    - complementary:
+      - generic:
+        - generic: 예제 모음
+      - navigation:
+        - link:
+          - /url: /examples
+          - img
+          - text: 개요
+        - link:
+          - /url: /examples/components
+          - img
+          - text: UI 컴포넌트
+        - link:
+          - /url: /examples/forms
+          - img
+          - text: 폼 & 유효성 검사
+        - link:
+          - /url: /examples/layouts
+          - img
+          - text: 레이아웃 패턴
+        - link:
+          - /url: /examples/hooks
+          - img
+          - text: 훅 예제
+        - link:
+          - /url: /examples/data-fetching
+          - img
+          - text: 데이터 페칭
+        - link:
+          - /url: /examples/optimization
+          - img
+          - text: 최적화
+    - generic:
+      - main:
+        - generic:
+          - generic:
+            - navigation:
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /examples
+                    - text: 예제
+                - listitem:
+                  - img
+                - listitem:
+                  - link [disabled]: UI 컴포넌트
+            - generic:
+              - generic:
+                - heading [level=1]: UI 컴포넌트
+                - paragraph: shadcn/ui 기반 컴포넌트 쇼케이스
+          - generic:
+            - heading [level=2]: Button
+            - generic:
+              - button: 기본
+              - button: 보조
+              - button: 외곽선
+              - button: 고스트
+              - button: 삭제
+              - button: 링크
+              - button [disabled]: 비활성
+          - generic:
+            - heading [level=2]: Badge
+            - generic:
+              - generic: 기본
+              - generic: 보조
+              - generic: 외곽선
+              - generic: 삭제
+          - generic:
+            - heading [level=2]: Avatar
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - generic: 홍길
+          - generic:
+            - heading [level=2]: Input & Label
+            - generic:
+              - generic:
+                - generic: 이메일
+                - textbox:
+                  - /placeholder: name@example.com
+          - generic:
+            - heading [level=2]: Checkbox
+            - generic:
+              - generic:
+                - generic:
+                  - checkbox
+                  - generic: 기본 체크박스
+                - generic:
+                  - checkbox [checked]:
+                    - generic:
+                      - img
+                  - generic: 기본 체크됨
+                - generic:
+                  - checkbox [disabled]
+                  - generic: 비활성
+          - generic:
+            - heading [level=2]: Switch
+            - generic:
+              - generic:
+                - generic:
+                  - switch
+                  - generic: 알림 꺼짐
+                - generic:
+                  - switch [checked]
+                  - generic: 소형 (size=sm, 기본값 켜짐)
+                - generic:
+                  - switch [disabled]
+                  - generic: 비활성
+          - generic:
+            - heading [level=2]: Select
+            - generic:
+              - generic:
+                - generic:
+                  - combobox:
+                    - generic: 프레임워크 선택
+                    - img
+                - combobox [disabled]:
+                  - generic: 비활성 상태
+                  - img
+          - generic:
+            - heading [level=2]: Separator
+            - generic:
+              - generic:
+                - generic: 왼쪽
+                - generic: 오른쪽
+          - generic:
+            - heading [level=2]: Progress
+            - generic:
+              - generic:
+                - progressbar
+                - progressbar
+                - progressbar
+          - generic:
+            - heading [level=2]: Skeleton
+          - generic:
+            - heading [level=2]: Alert
+            - generic:
+              - generic:
+                - alert:
+                  - img
+                  - generic: 안내
+                  - generic: 기본 알림 메시지입니다.
+                - alert:
+                  - img
+                  - generic: 오류
+                  - generic: 삭제 위험 알림 메시지입니다.
+          - generic:
+            - heading [level=2]: Card
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=3]: 카드 제목
+                  - paragraph: 카드 설명 텍스트입니다.
+                - generic:
+                  - paragraph: 카드 본문 내용입니다.
+                - generic:
+                  - button: 액션
+          - generic:
+            - heading [level=2]: Dialog
+            - generic:
+              - button [expanded]: 프로필 수정
+          - generic:
+            - heading [level=2]: Tabs
+            - generic:
+              - generic:
+                - tablist:
+                  - tab [selected]: 계정
+                  - tab: 비밀번호
+                - tabpanel:
+                  - generic:
+                    - generic:
+                      - heading [level=3]: 계정
+                      - paragraph: 계정 정보를 수정하세요.
+                    - generic:
+                      - generic:
+                        - generic: 이름
+                        - textbox: 홍길동
+                      - button: 저장
+          - generic:
+            - heading [level=2]: ThemeToggle
+            - generic:
+              - button:
+                - img
+                - generic: 테마 전환
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e200] [cursor=pointer]:
+    - img [ref=e201]
+  - alert
+  - dialog "프로필 수정" [ref=e206]:
+    - generic [ref=e207]:
+      - heading "프로필 수정" [level=2] [ref=e208]
+      - paragraph [ref=e209]: 프로필 정보를 수정합니다. 변경 후 저장 버튼을 누르세요.
+    - generic [ref=e210]:
+      - generic [ref=e211]:
+        - generic [ref=e212]: 이름
+        - textbox "이름" [active] [ref=e213]: 홍길동
+      - generic [ref=e214]:
+        - generic [ref=e215]: 이메일
+        - textbox "이메일" [ref=e216]: hong@example.com
+    - button "저장" [ref=e218]
+    - button "Close" [ref=e219]:
+      - img
+      - generic [ref=e220]: Close

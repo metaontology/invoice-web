@@ -1,0 +1,34 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "StarterKit" [ref=e5] [cursor=pointer]:
+          - /url: /
+        - navigation [ref=e6]:
+          - link "홈" [ref=e7] [cursor=pointer]:
+            - /url: /
+          - link "예시" [ref=e8] [cursor=pointer]:
+            - /url: /examples
+        - generic [ref=e9]:
+          - button [disabled]
+          - link "로그인" [ref=e10] [cursor=pointer]:
+            - /url: /login
+    - main [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - heading "StarterKit" [level=1] [ref=e14]
+          - paragraph [ref=e15]: Next.js 16 + Tailwind CSS v4 + shadcn/ui 스타터킷
+        - generic [ref=e16]:
+          - link "시작하기" [ref=e17] [cursor=pointer]:
+            - /url: /dashboard
+          - link "컴포넌트 보기" [ref=e18] [cursor=pointer]:
+            - /url: /examples
+    - contentinfo [ref=e19]:
+      - generic [ref=e20]:
+        - paragraph [ref=e21]: © 2026 StarterKit. All rights reserved.
+        - generic [ref=e22]:
+          - link "개인정보처리방침" [ref=e23] [cursor=pointer]:
+            - /url: "#"
+          - link "이용약관" [ref=e24] [cursor=pointer]:
+            - /url: "#"
+  - region "Notifications alt+T"

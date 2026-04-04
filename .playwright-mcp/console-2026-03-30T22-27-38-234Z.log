@@ -1,0 +1,6 @@
+[  600227ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://shopsquare.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.8e6d860b.js?o=www:1
+[ 1200410ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://shopsquare.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.8e6d860b.js?o=www:1
+[ 3601099ms] [ERROR] Fail to create FourColumn. no materials @ https://pm.pstatic.net/resources/js/preload.e5e2ade4.js?o=www:1
+[ 4201643ms] [ERROR] [Calendar] Invalid calendar status. calendar api statusCode is not 200 @ https://pm.pstatic.net/resources/js/preload.e5e2ade4.js?o=www:1
+[ 4201646ms] [ERROR] [Memo] Invalid memo status. memo list is null @ https://pm.pstatic.net/resources/js/preload.e5e2ade4.js?o=www:1
+[ 4801610ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://shopsquare.naver.com') does not match the recipient window's origin ('https://www.naver.com'). @ https://pm.pstatic.net/resources/js/main.8e6d860b.js?o=www:1

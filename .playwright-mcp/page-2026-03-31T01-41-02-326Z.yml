@@ -1,0 +1,240 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "StarterKit" [ref=e5] [cursor=pointer]:
+        - /url: /dashboard
+      - navigation [ref=e6]:
+        - link "대시보드" [ref=e7] [cursor=pointer]:
+          - /url: /dashboard
+        - link "설정" [ref=e8] [cursor=pointer]:
+          - /url: /settings
+    - generic [ref=e9]:
+      - banner [ref=e10]:
+        - generic [ref=e11]:
+          - button "테마 전환" [ref=e144]:
+            - img
+            - generic [ref=e145]: 테마 전환
+          - button "2 알림 2개" [ref=e12]:
+            - img
+            - generic [ref=e13]: "2"
+            - generic [ref=e14]: 알림 2개
+          - button "홍길 사용자 메뉴 열기" [ref=e15]:
+            - generic [ref=e17] [cursor=pointer]: 홍길
+            - generic [ref=e18]: 사용자 메뉴 열기
+      - main [ref=e19]:
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - navigation "breadcrumb" [ref=e148]:
+              - list [ref=e149]:
+                - listitem [ref=e150]:
+                  - link "홈" [ref=e151] [cursor=pointer]:
+                    - /url: /
+                  - listitem [ref=e152]:
+                    - img [ref=e153]
+                - listitem [ref=e155]:
+                  - link "대시보드" [disabled] [ref=e156]
+            - generic [ref=e158]:
+              - heading "대시보드" [level=1] [ref=e159]
+              - paragraph [ref=e160]: 서비스 현황을 한눈에 확인하세요.
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - generic [ref=e163]:
+                - generic [ref=e164]:
+                  - paragraph [ref=e165]: 총 사용자
+                  - img [ref=e166]
+                - heading "1,234" [level=3] [ref=e171]
+              - paragraph [ref=e173]:
+                - img [ref=e174]
+                - text: 지난달 대비 +5%
+            - generic [ref=e177]:
+              - generic [ref=e178]:
+                - generic [ref=e179]:
+                  - paragraph [ref=e180]: 이번 달 방문
+                  - img [ref=e181]
+                - heading "2,468" [level=3] [ref=e184]
+              - paragraph [ref=e186]:
+                - img [ref=e187]
+                - text: 지난달 대비 +10%
+            - generic [ref=e190]:
+              - generic [ref=e191]:
+                - generic [ref=e192]:
+                  - paragraph [ref=e193]: 전환율
+                  - img [ref=e194]
+                - heading "3.7%" [level=3] [ref=e197]
+              - paragraph [ref=e199]:
+                - img [ref=e200]
+                - text: 지난달 대비 +15%
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - heading "월간 목표 달성률" [level=3] [ref=e205]
+              - paragraph [ref=e206]: 이번 달 주요 지표 진행 현황
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - generic [ref=e209]:
+                  - generic [ref=e210]: 신규 사용자 목표
+                  - generic [ref=e211]: 62%
+                - progressbar [ref=e212]
+              - generic [ref=e214]:
+                - generic [ref=e215]:
+                  - generic [ref=e216]: 매출 목표
+                  - generic [ref=e217]: 81%
+                - progressbar [ref=e218]
+              - generic [ref=e220]:
+                - generic [ref=e221]:
+                  - generic [ref=e222]: 고객 만족도
+                  - generic [ref=e223]: 94%
+                - progressbar [ref=e224]
+          - generic [ref=e226]:
+            - generic [ref=e227]:
+              - heading "최근 가입 사용자" [level=3] [ref=e228]
+              - paragraph [ref=e229]: 최근 5명의 신규 가입자
+            - table [ref=e232]:
+              - rowgroup [ref=e233]:
+                - row "이름 이메일 상태 가입일" [ref=e234]:
+                  - columnheader "이름" [ref=e235]
+                  - columnheader "이메일" [ref=e236]
+                  - columnheader "상태" [ref=e237]
+                  - columnheader "가입일" [ref=e238]
+              - rowgroup [ref=e239]:
+                - row "김민준 minjun@example.com 활성 2026-03-28" [ref=e240]:
+                  - cell "김민준" [ref=e241]
+                  - cell "minjun@example.com" [ref=e242]
+                  - cell "활성" [ref=e243]:
+                    - generic [ref=e244]: 활성
+                  - cell "2026-03-28" [ref=e245]
+                - row "이서연 seoyeon@example.com 활성 2026-03-27" [ref=e246]:
+                  - cell "이서연" [ref=e247]
+                  - cell "seoyeon@example.com" [ref=e248]
+                  - cell "활성" [ref=e249]:
+                    - generic [ref=e250]: 활성
+                  - cell "2026-03-27" [ref=e251]
+                - row "박지호 jiho@example.com 대기 2026-03-26" [ref=e252]:
+                  - cell "박지호" [ref=e253]
+                  - cell "jiho@example.com" [ref=e254]
+                  - cell "대기" [ref=e255]:
+                    - generic [ref=e256]: 대기
+                  - cell "2026-03-26" [ref=e257]
+                - row "최수아 sua@example.com 활성 2026-03-25" [ref=e258]:
+                  - cell "최수아" [ref=e259]
+                  - cell "sua@example.com" [ref=e260]
+                  - cell "활성" [ref=e261]:
+                    - generic [ref=e262]: 활성
+                  - cell "2026-03-25" [ref=e263]
+                - row "정도윤 doyun@example.com 비활성 2026-03-24" [ref=e264]:
+                  - cell "정도윤" [ref=e265]
+                  - cell "doyun@example.com" [ref=e266]
+                  - cell "비활성" [ref=e267]:
+                    - generic [ref=e268]: 비활성
+                  - cell "2026-03-24" [ref=e269]
+  - region "Notifications alt+T"
+  - generic [active]:
+    - generic [ref=e292]:
+      - generic [ref=e293]:
+        - generic [ref=e294]:
+          - navigation [ref=e295]:
+            - button "previous" [ref=e296] [cursor=pointer]:
+              - img "previous" [ref=e297]
+            - generic [ref=e299]:
+              - generic [ref=e300]: 2/
+              - text: "3"
+            - button "next" [ref=e301] [cursor=pointer]:
+              - img "next" [ref=e302]
+          - img
+        - generic [ref=e304]:
+          - generic [ref=e305]:
+            - img [ref=e306]
+            - generic "Latest available version is detected (16.2.1)." [ref=e308]: Next.js 16.2.1
+            - generic [ref=e309]: Turbopack
+          - img
+      - generic [ref=e310]:
+        - dialog "Console Error" [ref=e311]:
+          - generic [ref=e314]:
+            - generic [ref=e315]:
+              - generic [ref=e316]:
+                - generic [ref=e318]: Console Error
+                - generic [ref=e319]:
+                  - button "Copy Error Info" [ref=e320] [cursor=pointer]:
+                    - img [ref=e321]
+                  - button "No related documentation found" [disabled] [ref=e323]:
+                    - img [ref=e324]
+                  - button "Attach Node.js inspector" [ref=e326] [cursor=pointer]:
+                    - img [ref=e327]
+              - generic [ref=e336]: <li> cannot contain a nested <li>. See this log for the ancestor stack trace.
+            - generic [ref=e337]:
+              - generic [ref=e451]:
+                - paragraph [ref=e453]:
+                  - img [ref=e455]
+                  - generic [ref=e458]: components/ui/breadcrumb.tsx (33:5) @ BreadcrumbItem
+                  - button "Open in editor" [ref=e459] [cursor=pointer]:
+                    - img [ref=e461]
+                - generic [ref=e464]:
+                  - generic [ref=e465]: "31 | function BreadcrumbItem({ className, ...props }: React.ComponentProps<\"li\">) {"
+                  - generic [ref=e466]: 32 | return (
+                  - generic [ref=e467]: "> 33 | <li"
+                  - generic [ref=e468]: "| ^"
+                  - generic [ref=e469]: 34 | data-slot="breadcrumb-item"
+                  - generic [ref=e470]: "35 | className={cn(\"inline-flex items-center gap-1\", className)}"
+                  - generic [ref=e471]: "36 | {...props}"
+              - generic [ref=e472]:
+                - generic [ref=e473]:
+                  - paragraph [ref=e474]:
+                    - text: Call Stack
+                    - generic [ref=e475]: "20"
+                  - button "Show 14 ignore-listed frame(s)" [ref=e476] [cursor=pointer]:
+                    - text: Show 14 ignore-listed frame(s)
+                    - img [ref=e477]
+                - generic [ref=e479]:
+                  - generic [ref=e480]: li
+                  - text: <anonymous>
+                - generic [ref=e481]:
+                  - generic [ref=e482]:
+                    - text: BreadcrumbItem
+                    - button "Open BreadcrumbItem in editor" [ref=e483] [cursor=pointer]:
+                      - img [ref=e484]
+                  - text: components/ui/breadcrumb.tsx (33:5)
+                - generic [ref=e486]:
+                  - generic [ref=e487]:
+                    - text: <anonymous>
+                    - button "Open <anonymous> in editor" [ref=e488] [cursor=pointer]:
+                      - img [ref=e489]
+                  - text: components/page/page-header.tsx (40:17)
+                - generic [ref=e491]:
+                  - generic [ref=e492]: Array.map
+                  - text: <anonymous>
+                - generic [ref=e493]:
+                  - generic [ref=e494]:
+                    - text: PageHeader
+                    - button "Open PageHeader in editor" [ref=e495] [cursor=pointer]:
+                      - img [ref=e496]
+                  - text: components/page/page-header.tsx (37:26)
+                - generic [ref=e498]:
+                  - generic [ref=e499]:
+                    - text: DashboardPage
+                    - button "Open DashboardPage in editor" [ref=e500] [cursor=pointer]:
+                      - img [ref=e501]
+                  - text: app/(app)/dashboard/page.tsx (62:7)
+          - generic [ref=e438]: "1"
+          - generic [ref=e439]: "2"
+        - contentinfo [ref=e440]:
+          - region "Error feedback" [ref=e441]:
+            - paragraph [ref=e442]:
+              - link "Was this helpful?" [ref=e443] [cursor=pointer]:
+                - /url: https://nextjs.org/telemetry#error-feedback
+            - button "Mark as helpful" [ref=e444] [cursor=pointer]:
+              - img [ref=e445]
+            - button "Mark as not helpful" [ref=e448] [cursor=pointer]:
+              - img [ref=e449]
+    - generic [ref=e274] [cursor=pointer]:
+      - button "Open Next.js Dev Tools" [ref=e275]:
+        - img [ref=e276]
+      - generic [ref=e279]:
+        - button "Open issues overlay" [ref=e280]:
+          - generic [ref=e281]:
+            - generic [ref=e282]: "2"
+            - generic [ref=e283]: "3"
+          - generic [ref=e284]:
+            - text: Issue
+            - generic [ref=e285]: s
+        - button "Collapse issues badge" [ref=e286]:
+          - img [ref=e287]
+  - alert [ref=e289]

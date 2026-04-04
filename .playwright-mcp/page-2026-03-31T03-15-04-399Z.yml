@@ -1,0 +1,72 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e5]: 예제 모음
+      - navigation [ref=e6]:
+        - link "개요" [ref=e7] [cursor=pointer]:
+          - /url: /examples
+          - img [ref=e8]
+          - text: 개요
+        - link "UI 컴포넌트" [ref=e13] [cursor=pointer]:
+          - /url: /examples/components
+          - img [ref=e14]
+          - text: UI 컴포넌트
+        - link "폼 & 유효성 검사" [ref=e17] [cursor=pointer]:
+          - /url: /examples/forms
+          - img [ref=e18]
+          - text: 폼 & 유효성 검사
+        - link "레이아웃 패턴" [ref=e21] [cursor=pointer]:
+          - /url: /examples/layouts
+          - img [ref=e22]
+          - text: 레이아웃 패턴
+        - link "훅 예제" [ref=e26] [cursor=pointer]:
+          - /url: /examples/hooks
+          - img [ref=e27]
+          - text: 훅 예제
+        - link "데이터 페칭" [ref=e29] [cursor=pointer]:
+          - /url: /examples/data-fetching
+          - img [ref=e30]
+          - text: 데이터 페칭
+        - link "최적화" [ref=e34] [cursor=pointer]:
+          - /url: /examples/optimization
+          - img [ref=e35]
+          - text: 최적화
+    - main [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - navigation "breadcrumb" [ref=e42]:
+            - list [ref=e43]:
+              - listitem [ref=e44]:
+                - link "예제" [ref=e45] [cursor=pointer]:
+                  - /url: /examples
+              - listitem [ref=e46]:
+                - img [ref=e47]
+              - listitem [ref=e49]:
+                - link "폼 & 유효성 검사" [disabled] [ref=e50]
+          - generic [ref=e52]:
+            - heading "폼 & 유효성 검사" [level=1] [ref=e53]
+            - paragraph [ref=e54]: react-hook-form + zod 패턴 예제. 빈 채로 제출해보거나 잘못된 값을 입력해 유효성 검사를 확인하세요.
+        - generic [ref=e55]:
+          - tablist [ref=e56]:
+            - tab "로그인" [selected] [ref=e57]
+            - tab "회원가입" [ref=e58]
+            - tab "커스텀 폼" [ref=e59]
+          - tabpanel "로그인" [ref=e60]:
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - generic [ref=e64]: 이메일
+                - textbox "이메일" [ref=e65]:
+                  - /placeholder: name@example.com
+              - generic [ref=e66]:
+                - generic [ref=e67]: 비밀번호
+                - textbox "비밀번호" [active] [ref=e68]:
+                  - /placeholder: 비밀번호 입력
+              - button "로그인" [ref=e69]
+              - paragraph [ref=e70]:
+                - text: 계정이 없으신가요?
+                - link "회원가입" [ref=e71] [cursor=pointer]:
+                  - /url: /register
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e77] [cursor=pointer]:
+    - img [ref=e78]
+  - alert [ref=e81]

@@ -1,0 +1,95 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e5]: 예제 모음
+      - navigation [ref=e6]:
+        - link "개요" [ref=e7] [cursor=pointer]:
+          - /url: /examples
+          - img [ref=e8]
+          - text: 개요
+        - link "UI 컴포넌트" [ref=e13] [cursor=pointer]:
+          - /url: /examples/components
+          - img [ref=e14]
+          - text: UI 컴포넌트
+        - link "폼 & 유효성 검사" [ref=e17] [cursor=pointer]:
+          - /url: /examples/forms
+          - img [ref=e18]
+          - text: 폼 & 유효성 검사
+        - link "레이아웃 패턴" [ref=e21] [cursor=pointer]:
+          - /url: /examples/layouts
+          - img [ref=e22]
+          - text: 레이아웃 패턴
+        - link "훅 예제" [ref=e26] [cursor=pointer]:
+          - /url: /examples/hooks
+          - img [ref=e27]
+          - text: 훅 예제
+        - link "데이터 페칭" [ref=e29] [cursor=pointer]:
+          - /url: /examples/data-fetching
+          - img [ref=e30]
+          - text: 데이터 페칭
+        - link "최적화" [ref=e34] [cursor=pointer]:
+          - /url: /examples/optimization
+          - img [ref=e35]
+          - text: 최적화
+    - main [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - navigation "breadcrumb" [ref=e42]:
+            - list [ref=e43]:
+              - listitem [ref=e44]:
+                - link "예제" [ref=e45] [cursor=pointer]:
+                  - /url: /examples
+              - listitem [ref=e46]:
+                - img [ref=e47]
+              - listitem [ref=e49]:
+                - link "최적화" [disabled] [ref=e50]
+          - generic [ref=e52]:
+            - heading "최적화" [level=1] [ref=e53]
+            - paragraph [ref=e54]: next/image, dynamic import, SEO 메타데이터 등 Next.js 최적화 패턴 예제
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - heading "next/image" [level=2] [ref=e57]
+            - generic [ref=e58]: 자동 최적화
+          - paragraph [ref=e59]:
+            - code [ref=e60]: next/image
+            - text: 는 WebP 변환, 크기 조정, lazy loading을 자동으로 처리합니다.
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - generic [ref=e65]:
+                - generic [ref=e66]: priority
+                - generic [ref=e67]: LCP 최적화 (즉시 로드)
+              - img "priority 이미지 예시" [ref=e68]
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - generic [ref=e71]: lazy
+                - generic [ref=e72]: 기본값 (뷰포트 진입 시)
+              - img "lazy 이미지 예시" [ref=e73]
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - heading "Dynamic Import" [level=2] [ref=e76]
+            - generic [ref=e77]: Lazy Loading
+          - paragraph [ref=e78]:
+            - code [ref=e79]: dynamic()
+            - text: 으로 컴포넌트를 지연 로딩합니다.
+            - code [ref=e80]: "ssr: false"
+            - text: 는 서버에서 렌더링하지 않습니다.
+          - generic [ref=e81]:
+            - 'heading "const LazyDemo = dynamic(() => import(''./lazy-demo''), { ssr: false })" [level=3] [ref=e83]'
+            - generic [ref=e85]:
+              - generic [ref=e86]:
+                - generic [ref=e87]: dynamic ssr:false
+                - generic [ref=e88]: 이 컴포넌트는 클라이언트에서 지연 로딩되었습니다
+              - generic [ref=e89]:
+                - button "-" [ref=e90]
+                - generic [ref=e91]: "0"
+                - button "+" [ref=e92]
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - heading "SEO 메타데이터" [level=2] [ref=e95]
+            - generic [ref=e96]: App Router
+          - paragraph [ref=e97]: 이 페이지 자체에 아래 메타데이터가 적용되어 있습니다.
+          - generic [ref=e100]: "// app/examples/optimization/page.tsx export const metadata: Metadata = { title: \"최적화\", description: \"Next.js 이미지 최적화, 동적 임포트, SEO 설정 예제\", openGraph: { title: \"최적화 예제 | Next.js 스타터킷\", description: \"next/image, dynamic import, SEO 설정 패턴\", }, } // 레이아웃에서 title template 설정 시 자동 조합 // layout.tsx: { template: \"%s | 예제\", default: \"예제 모음\" } // → 결과: \"최적화 | 예제\""
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e106] [cursor=pointer]:
+    - img [ref=e107]
+  - alert [ref=e110]

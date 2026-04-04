@@ -1,0 +1,51 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - heading "컴포넌트 쇼케이스" [level=1] [ref=e4]
+      - paragraph [ref=e5]: shadcn/ui 기반 컴포넌트 모음
+    - generic [ref=e6]:
+      - heading "Button" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - button "기본" [ref=e9]
+        - button "보조" [ref=e10]
+        - button "외곽선" [ref=e11]
+        - button "고스트" [ref=e12]
+        - button "삭제" [ref=e13]
+        - button "링크" [ref=e14]
+        - button "비활성" [disabled]
+    - generic [ref=e15]:
+      - heading "Badge" [level=2] [ref=e16]
+      - generic [ref=e17]:
+        - generic [ref=e18]: 기본
+        - generic [ref=e19]: 보조
+        - generic [ref=e20]: 외곽선
+        - generic [ref=e21]: 삭제
+    - generic [ref=e22]:
+      - heading "Avatar" [level=2] [ref=e23]
+      - generic [ref=e24]:
+        - generic [ref=e26]: CN
+        - generic [ref=e28]: 홍길
+    - generic [ref=e29]:
+      - heading "Input & Label" [level=2] [ref=e30]
+      - generic [ref=e32]:
+        - generic [ref=e33]: 이메일
+        - textbox "이메일" [ref=e34]:
+          - /placeholder: name@example.com
+    - generic [ref=e35]:
+      - heading "Separator" [level=2] [ref=e36]
+      - generic [ref=e39]:
+        - generic [ref=e40]: 왼쪽
+        - generic [ref=e41]: 오른쪽
+    - generic [ref=e42]:
+      - heading "Card" [level=2] [ref=e43]
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - heading "카드 제목" [level=3] [ref=e47]
+          - paragraph [ref=e48]: 카드 설명 텍스트입니다.
+        - paragraph [ref=e50]: 카드 본문 내용입니다.
+        - button "액션" [ref=e52]
+    - generic [ref=e53]:
+      - heading "ThemeToggle" [level=2] [ref=e54]
+      - generic [ref=e55]:
+        - button [disabled]
+  - region "Notifications alt+T"

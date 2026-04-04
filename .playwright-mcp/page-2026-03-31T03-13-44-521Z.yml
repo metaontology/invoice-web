@@ -1,0 +1,175 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e5]: 예제 모음
+      - navigation [ref=e6]:
+        - link "개요" [ref=e7] [cursor=pointer]:
+          - /url: /examples
+          - img [ref=e8]
+          - text: 개요
+        - link "UI 컴포넌트" [ref=e13] [cursor=pointer]:
+          - /url: /examples/components
+          - img [ref=e14]
+          - text: UI 컴포넌트
+        - link "폼 & 유효성 검사" [ref=e17] [cursor=pointer]:
+          - /url: /examples/forms
+          - img [ref=e18]
+          - text: 폼 & 유효성 검사
+        - link "레이아웃 패턴" [ref=e21] [cursor=pointer]:
+          - /url: /examples/layouts
+          - img [ref=e22]
+          - text: 레이아웃 패턴
+        - link "훅 예제" [ref=e26] [cursor=pointer]:
+          - /url: /examples/hooks
+          - img [ref=e27]
+          - text: 훅 예제
+        - link "데이터 페칭" [ref=e29] [cursor=pointer]:
+          - /url: /examples/data-fetching
+          - img [ref=e30]
+          - text: 데이터 페칭
+        - link "최적화" [ref=e34] [cursor=pointer]:
+          - /url: /examples/optimization
+          - img [ref=e35]
+          - text: 최적화
+    - main [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - navigation "breadcrumb" [ref=e42]:
+            - list [ref=e43]:
+              - listitem [ref=e44]:
+                - link "예제" [ref=e45] [cursor=pointer]:
+                  - /url: /examples
+              - listitem [ref=e46]:
+                - img [ref=e47]
+              - listitem [ref=e49]:
+                - link "UI 컴포넌트" [disabled] [ref=e50]
+          - generic [ref=e52]:
+            - heading "UI 컴포넌트" [level=1] [ref=e53]
+            - paragraph [ref=e54]: shadcn/ui 기반 컴포넌트 쇼케이스
+        - generic [ref=e55]:
+          - heading "Button" [level=2] [ref=e56]
+          - generic [ref=e57]:
+            - button "기본" [ref=e58]
+            - button "보조" [ref=e59]
+            - button "외곽선" [ref=e60]
+            - button "고스트" [ref=e61]
+            - button "삭제" [ref=e62]
+            - button "링크" [ref=e63]
+            - button "비활성" [disabled]
+        - generic [ref=e64]:
+          - heading "Badge" [level=2] [ref=e65]
+          - generic [ref=e66]:
+            - generic [ref=e67]: 기본
+            - generic [ref=e68]: 보조
+            - generic [ref=e69]: 외곽선
+            - generic [ref=e70]: 삭제
+        - generic [ref=e71]:
+          - heading "Avatar" [level=2] [ref=e72]
+          - generic [ref=e73]:
+            - generic [ref=e75]: CN
+            - generic [ref=e77]: 홍길
+        - generic [ref=e78]:
+          - heading "Input & Label" [level=2] [ref=e79]
+          - generic [ref=e81]:
+            - generic [ref=e82]: 이메일
+            - textbox "이메일" [ref=e83]:
+              - /placeholder: name@example.com
+        - generic [ref=e84]:
+          - heading "Checkbox" [level=2] [ref=e85]
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - checkbox "기본 체크박스" [ref=e89]
+              - checkbox
+              - generic [ref=e90]: 기본 체크박스
+            - generic [ref=e91]:
+              - checkbox "기본 체크됨" [checked] [ref=e92]:
+                - generic:
+                  - img
+              - checkbox [checked]
+              - generic [ref=e93]: 기본 체크됨
+            - generic [ref=e94]:
+              - checkbox "비활성" [disabled] [ref=e95]
+              - checkbox [disabled]
+              - generic [ref=e96]: 비활성
+        - generic [ref=e97]:
+          - heading "Switch" [level=2] [ref=e98]
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - switch "알림 꺼짐" [ref=e102]
+              - checkbox
+              - generic [ref=e103]: 알림 꺼짐
+            - generic [ref=e104]:
+              - switch "소형 (size=sm, 기본값 켜짐)" [checked] [ref=e105]
+              - checkbox [checked]
+              - generic [ref=e106]: 소형 (size=sm, 기본값 켜짐)
+            - generic [ref=e107]:
+              - switch "비활성" [disabled] [ref=e108]
+              - checkbox [disabled]
+              - generic [ref=e109]: 비활성
+        - generic [ref=e110]:
+          - heading "Select" [level=2] [ref=e111]
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - combobox [ref=e115]:
+                - generic: 프레임워크 선택
+                - img
+              - combobox [ref=e116]
+            - combobox [disabled] [ref=e117]:
+              - generic: 비활성 상태
+              - img
+            - combobox [disabled] [ref=e118]
+        - generic [ref=e119]:
+          - heading "Separator" [level=2] [ref=e120]
+          - generic [ref=e123]:
+            - generic [ref=e124]: 왼쪽
+            - generic [ref=e125]: 오른쪽
+        - generic [ref=e126]:
+          - heading "Progress" [level=2] [ref=e127]
+          - generic [ref=e129]:
+            - progressbar [ref=e130]
+            - progressbar [ref=e132]
+            - progressbar [ref=e134]
+        - heading "Skeleton" [level=2] [ref=e137]
+        - generic [ref=e143]:
+          - heading "Alert" [level=2] [ref=e144]
+          - generic [ref=e146]:
+            - alert [ref=e147]:
+              - img [ref=e148]
+              - generic [ref=e150]: 안내
+              - generic [ref=e151]: 기본 알림 메시지입니다.
+            - alert [ref=e152]:
+              - img [ref=e153]
+              - generic [ref=e155]: 오류
+              - generic [ref=e156]: 삭제 위험 알림 메시지입니다.
+        - generic [ref=e157]:
+          - heading "Card" [level=2] [ref=e158]
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - heading "카드 제목" [level=3] [ref=e162]
+              - paragraph [ref=e163]: 카드 설명 텍스트입니다.
+            - paragraph [ref=e165]: 카드 본문 내용입니다.
+            - button "액션" [ref=e167]
+        - generic [ref=e168]:
+          - heading "Dialog" [level=2] [ref=e169]
+          - button "프로필 수정" [ref=e171]
+        - generic [ref=e172]:
+          - heading "Tabs" [level=2] [ref=e173]
+          - generic [ref=e175]:
+            - tablist [ref=e176]:
+              - tab "계정" [selected] [ref=e177]
+              - tab "비밀번호" [ref=e178]
+            - tabpanel "계정" [ref=e179]:
+              - generic [ref=e180]:
+                - generic [ref=e181]:
+                  - heading "계정" [level=3] [ref=e182]
+                  - paragraph [ref=e183]: 계정 정보를 수정하세요.
+                - generic [ref=e184]:
+                  - generic [ref=e185]:
+                    - generic [ref=e186]: 이름
+                    - textbox "이름" [ref=e187]: 홍길동
+                  - button "저장" [ref=e188]
+        - generic [ref=e189]:
+          - heading "ThemeToggle" [level=2] [ref=e190]
+          - generic [ref=e191]:
+            - button [disabled]
+  - region "Notifications alt+T"

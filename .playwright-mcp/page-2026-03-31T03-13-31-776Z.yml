@@ -1,0 +1,76 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e5]: 예제 모음
+      - navigation [ref=e6]:
+        - link "개요" [ref=e7] [cursor=pointer]:
+          - /url: /examples
+          - img [ref=e8]
+          - text: 개요
+        - link "UI 컴포넌트" [ref=e13] [cursor=pointer]:
+          - /url: /examples/components
+          - img [ref=e14]
+          - text: UI 컴포넌트
+        - link "폼 & 유효성 검사" [ref=e17] [cursor=pointer]:
+          - /url: /examples/forms
+          - img [ref=e18]
+          - text: 폼 & 유효성 검사
+        - link "레이아웃 패턴" [ref=e21] [cursor=pointer]:
+          - /url: /examples/layouts
+          - img [ref=e22]
+          - text: 레이아웃 패턴
+        - link "훅 예제" [ref=e26] [cursor=pointer]:
+          - /url: /examples/hooks
+          - img [ref=e27]
+          - text: 훅 예제
+        - link "데이터 페칭" [ref=e29] [cursor=pointer]:
+          - /url: /examples/data-fetching
+          - img [ref=e30]
+          - text: 데이터 페칭
+        - link "최적화" [ref=e34] [cursor=pointer]:
+          - /url: /examples/optimization
+          - img [ref=e35]
+          - text: 최적화
+    - main [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e43]:
+          - heading "예제 모음" [level=1] [ref=e44]
+          - paragraph [ref=e45]: Next.js 스타터킷의 패턴과 컴포넌트를 카테고리별로 탐색하세요
+        - generic [ref=e46]:
+          - link "UI 컴포넌트 Button, Badge, Dialog, Tabs 등 shadcn/ui 컴포넌트 쇼케이스" [ref=e47] [cursor=pointer]:
+            - /url: /examples/components
+            - generic [ref=e49]:
+              - img [ref=e50]
+              - heading "UI 컴포넌트" [level=3] [ref=e53]
+              - paragraph [ref=e54]: Button, Badge, Dialog, Tabs 등 shadcn/ui 컴포넌트 쇼케이스
+          - link "폼 & 유효성 검사 react-hook-form + zod 패턴, 에러 메시지, 제출 처리 예제" [ref=e55] [cursor=pointer]:
+            - /url: /examples/forms
+            - generic [ref=e57]:
+              - img [ref=e58]
+              - heading "폼 & 유효성 검사" [level=3] [ref=e61]
+              - paragraph [ref=e62]: react-hook-form + zod 패턴, 에러 메시지, 제출 처리 예제
+          - link "레이아웃 패턴 2컬럼, 사이드바, 카드 그리드 등 다양한 레이아웃 시각 데모" [ref=e63] [cursor=pointer]:
+            - /url: /examples/layouts
+            - generic [ref=e65]:
+              - img [ref=e66]
+              - heading "레이아웃 패턴" [level=3] [ref=e70]
+              - paragraph [ref=e71]: 2컬럼, 사이드바, 카드 그리드 등 다양한 레이아웃 시각 데모
+          - link "훅 예제 usehooks-ts 라이브러리 활용 인터랙티브 데모" [ref=e72] [cursor=pointer]:
+            - /url: /examples/hooks
+            - generic [ref=e74]:
+              - img [ref=e75]
+              - heading "훅 예제" [level=3] [ref=e77]
+              - paragraph [ref=e78]: usehooks-ts 라이브러리 활용 인터랙티브 데모
+          - link "데이터 페칭 Server Component async/await, Suspense, Client 상태 관리 패턴" [ref=e79] [cursor=pointer]:
+            - /url: /examples/data-fetching
+            - generic [ref=e81]:
+              - img [ref=e82]
+              - heading "데이터 페칭" [level=3] [ref=e86]
+              - paragraph [ref=e87]: Server Component async/await, Suspense, Client 상태 관리 패턴
+          - link "최적화 next/image, dynamic import, SEO 메타데이터 설정 예제" [ref=e88] [cursor=pointer]:
+            - /url: /examples/optimization
+            - generic [ref=e90]:
+              - img [ref=e91]
+              - heading "최적화" [level=3] [ref=e94]
+              - paragraph [ref=e95]: next/image, dynamic import, SEO 메타데이터 설정 예제
+  - region "Notifications alt+T"

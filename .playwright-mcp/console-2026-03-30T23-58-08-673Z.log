@@ -1,0 +1,2 @@
+[     367ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/Eugeny/tabby/blob/master/tabby-terminal/src/features/paste.ts:0
+[     887ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://github.com/Eugeny/tabby/latest-commit/master/tabby-terminal/src/features/paste.ts:0

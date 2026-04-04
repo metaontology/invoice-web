@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "StarterKit" [ref=e5] [cursor=pointer]:
+        - /url: /dashboard
+      - navigation [ref=e6]:
+        - link "대시보드" [ref=e7] [cursor=pointer]:
+          - /url: /dashboard
+        - link "설정" [ref=e8] [cursor=pointer]:
+          - /url: /settings
+    - generic [ref=e9]:
+      - banner [ref=e10]:
+        - generic [ref=e11]:
+          - button [disabled]
+          - button "2 알림 2개" [ref=e12]:
+            - img
+            - generic [ref=e13]: "2"
+            - generic [ref=e14]: 알림 2개
+          - button "홍길 사용자 메뉴 열기" [ref=e15]:
+            - generic [ref=e17] [cursor=pointer]: 홍길
+            - generic [ref=e18]: 사용자 메뉴 열기
+      - main [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - heading "설정" [level=1] [ref=e22]
+            - paragraph [ref=e23]: 계정 설정을 관리하세요.
+          - generic [ref=e24]:
+            - generic [ref=e25]:
+              - heading "프로필" [level=3] [ref=e26]
+              - paragraph [ref=e27]: 공개 프로필 정보를 수정하세요.
+            - generic [ref=e28]:
+              - generic [ref=e29]:
+                - generic [ref=e30]: 이름
+                - textbox "이름" [ref=e31]: 홍길동
+              - generic [ref=e32]:
+                - generic [ref=e33]: 이메일
+                - textbox "이메일" [ref=e34]: hong@example.com
+              - button "저장" [ref=e35]
+  - region "Notifications alt+T"

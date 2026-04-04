@@ -1,0 +1,102 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e5]: 예제 모음
+      - navigation [ref=e6]:
+        - link "개요" [ref=e7] [cursor=pointer]:
+          - /url: /examples
+          - img [ref=e8]
+          - text: 개요
+        - link "UI 컴포넌트" [ref=e13] [cursor=pointer]:
+          - /url: /examples/components
+          - img [ref=e14]
+          - text: UI 컴포넌트
+        - link "폼 & 유효성 검사" [ref=e17] [cursor=pointer]:
+          - /url: /examples/forms
+          - img [ref=e18]
+          - text: 폼 & 유효성 검사
+        - link "레이아웃 패턴" [ref=e21] [cursor=pointer]:
+          - /url: /examples/layouts
+          - img [ref=e22]
+          - text: 레이아웃 패턴
+        - link "훅 예제" [ref=e26] [cursor=pointer]:
+          - /url: /examples/hooks
+          - img [ref=e27]
+          - text: 훅 예제
+        - link "데이터 페칭" [ref=e29] [cursor=pointer]:
+          - /url: /examples/data-fetching
+          - img [ref=e30]
+          - text: 데이터 페칭
+        - link "최적화" [ref=e34] [cursor=pointer]:
+          - /url: /examples/optimization
+          - img [ref=e35]
+          - text: 최적화
+    - main [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - navigation "breadcrumb" [ref=e42]:
+            - list [ref=e43]:
+              - listitem [ref=e44]:
+                - link "예제" [ref=e45] [cursor=pointer]:
+                  - /url: /examples
+              - listitem [ref=e46]:
+                - img [ref=e47]
+              - listitem [ref=e49]:
+                - link "훅 예제" [disabled] [ref=e50]
+          - generic [ref=e52]:
+            - heading "훅 예제" [level=1] [ref=e53]
+            - paragraph [ref=e54]: usehooks-ts 라이브러리의 유용한 훅들을 인터랙티브하게 체험하세요
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - heading "로컬 스토리지" [level=2] [ref=e57]
+            - code [ref=e58]: useLocalStorage(key, initialValue)
+          - generic [ref=e60]:
+            - paragraph [ref=e61]:
+              - text: "페이지를 새로고침해도 값이 유지됩니다. (localStorage 키:"
+              - code [ref=e62]: examples-demo-value
+              - text: )
+            - generic [ref=e63]:
+              - generic [ref=e64]: 저장할 값
+              - generic [ref=e65]:
+                - textbox "저장할 값" [ref=e66]:
+                  - /placeholder: 텍스트를 입력하세요
+                - button "초기화" [ref=e67]
+            - paragraph [ref=e68]:
+              - text: "저장된 값:"
+              - code [ref=e69]: (없음)
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - heading "디바운스" [level=2] [ref=e72]
+            - code [ref=e73]: useDebounce(value, delay)
+          - generic [ref=e75]:
+            - paragraph [ref=e76]: 입력을 멈춘 뒤 500ms가 지나야 디바운스 값이 업데이트됩니다.
+            - generic [ref=e77]:
+              - generic [ref=e78]: 검색어 입력
+              - textbox "검색어 입력" [ref=e79]:
+                - /placeholder: 입력하세요...
+            - generic [ref=e80]:
+              - paragraph [ref=e81]:
+                - text: "즉시 값:"
+                - code [ref=e82]: (없음)
+              - paragraph [ref=e83]:
+                - text: "디바운스(500ms):"
+                - code [ref=e84]: (없음)
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - heading "윈도우 크기" [level=2] [ref=e87]
+            - code [ref=e88]: useWindowSize()
+          - paragraph [ref=e90]: 로딩 중...
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - heading "클립보드 복사" [level=2] [ref=e93]
+            - code [ref=e94]: useCopyToClipboard()
+          - generic [ref=e96]:
+            - paragraph [ref=e97]: 버튼을 클릭하면 텍스트가 클립보드에 복사됩니다.
+            - generic [ref=e98]:
+              - generic [ref=e99]: 복사할 텍스트
+              - generic [ref=e100]:
+                - textbox [ref=e101]: npm create next-app@latest my-app
+                - button "복사" [ref=e102]:
+                  - img
+                  - text: 복사
+  - region "Notifications alt+T"

@@ -1,0 +1,90 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e5]: 예제 모음
+      - navigation [ref=e6]:
+        - link "개요" [ref=e7] [cursor=pointer]:
+          - /url: /examples
+          - img [ref=e8]
+          - text: 개요
+        - link "UI 컴포넌트" [ref=e13] [cursor=pointer]:
+          - /url: /examples/components
+          - img [ref=e14]
+          - text: UI 컴포넌트
+        - link "폼 & 유효성 검사" [ref=e17] [cursor=pointer]:
+          - /url: /examples/forms
+          - img [ref=e18]
+          - text: 폼 & 유효성 검사
+        - link "레이아웃 패턴" [ref=e21] [cursor=pointer]:
+          - /url: /examples/layouts
+          - img [ref=e22]
+          - text: 레이아웃 패턴
+        - link "훅 예제" [ref=e26] [cursor=pointer]:
+          - /url: /examples/hooks
+          - img [ref=e27]
+          - text: 훅 예제
+        - link "데이터 페칭" [ref=e29] [cursor=pointer]:
+          - /url: /examples/data-fetching
+          - img [ref=e30]
+          - text: 데이터 페칭
+        - link "최적화" [ref=e34] [cursor=pointer]:
+          - /url: /examples/optimization
+          - img [ref=e35]
+          - text: 최적화
+    - main [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - navigation "breadcrumb" [ref=e42]:
+            - list [ref=e43]:
+              - listitem [ref=e44]:
+                - link "예제" [ref=e45] [cursor=pointer]:
+                  - /url: /examples
+              - listitem [ref=e46]:
+                - img [ref=e47]
+              - listitem [ref=e49]:
+                - link "데이터 페칭" [disabled] [ref=e50]
+          - generic [ref=e52]:
+            - heading "데이터 페칭" [level=1] [ref=e53]
+            - paragraph [ref=e54]: Next.js App Router의 다양한 데이터 페칭 패턴을 비교합니다
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - heading "Server Component — async/await + ISR" [level=2] [ref=e57]
+            - paragraph [ref=e58]:
+              - text: 페이지 컴포넌트 내에서 직접
+              - code [ref=e59]: fetch()
+              - text: 를 호출합니다.
+              - code [ref=e60]: "next: { revalidate: 60 }"
+              - text: 으로 60초마다 캐시를 재검증합니다.
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - generic [ref=e64]:
+                - generic [ref=e65]: ISR 60s
+                - heading "sunt aut facere repellat provident occaecati excepturi optio reprehenderit" [level=3] [ref=e66]
+              - paragraph [ref=e68]: quia et suscipit suscipit recusandae consequuntur expedita et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto
+            - generic [ref=e69]:
+              - generic [ref=e71]:
+                - generic [ref=e72]: ISR 60s
+                - heading "qui est esse" [level=3] [ref=e73]
+              - paragraph [ref=e75]: est rerum tempore vitae sequi sint nihil reprehenderit dolor beatae ea dolores neque fugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis qui aperiam non debitis possimus qui neque nisi nulla
+            - generic [ref=e76]:
+              - generic [ref=e78]:
+                - generic [ref=e79]: ISR 60s
+                - heading "ea molestias quasi exercitationem repellat qui ipsa sit aut" [level=3] [ref=e80]
+              - paragraph [ref=e82]: et iusto sed quo iure voluptatem occaecati omnis eligendi aut ad voluptatem doloribus vel accusantium quis pariatur molestiae porro eius odio et labore et velit aut
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - heading "Client Component — 이벤트 기반 페칭" [level=2] [ref=e85]
+            - paragraph [ref=e86]:
+              - code [ref=e87]: useState
+              - text: 로 loading/data/error 상태를 관리하고, 버튼 클릭 시
+              - code [ref=e88]: fetch()
+              - text: 를 호출합니다.
+          - generic [ref=e89]:
+            - button "데이터 불러오기" [ref=e91]:
+              - img
+              - text: 데이터 불러오기
+            - paragraph [ref=e92]: 버튼을 클릭하면 JSONPlaceholder API에서 할 일 목록을 불러옵니다.
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e98] [cursor=pointer]:
+    - img [ref=e99]
+  - alert [ref=e102]

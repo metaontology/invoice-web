@@ -1,0 +1,127 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - link "StarterKit" [ref=e5] [cursor=pointer]:
+        - /url: /dashboard
+      - navigation [ref=e6]:
+        - link "대시보드" [ref=e7] [cursor=pointer]:
+          - /url: /dashboard
+        - link "설정" [ref=e8] [cursor=pointer]:
+          - /url: /settings
+    - generic [ref=e9]:
+      - banner [ref=e10]:
+        - generic [ref=e11]:
+          - button [disabled]
+          - button "2 알림 2개" [ref=e12]:
+            - img
+            - generic [ref=e13]: "2"
+            - generic [ref=e14]: 알림 2개
+          - button "홍길 사용자 메뉴 열기" [ref=e15]:
+            - generic [ref=e17] [cursor=pointer]: 홍길
+            - generic [ref=e18]: 사용자 메뉴 열기
+      - main [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - navigation "breadcrumb" [ref=e22]:
+              - list [ref=e23]:
+                - listitem [ref=e24]:
+                  - link "홈" [ref=e25] [cursor=pointer]:
+                    - /url: /
+                - listitem [ref=e26]:
+                  - img [ref=e27]
+                - listitem [ref=e29]:
+                  - link "대시보드" [disabled] [ref=e30]
+            - generic [ref=e32]:
+              - heading "대시보드" [level=1] [ref=e33]
+              - paragraph [ref=e34]: 서비스 현황을 한눈에 확인하세요.
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - generic [ref=e37]:
+                - generic [ref=e38]:
+                  - paragraph [ref=e39]: 총 사용자
+                  - img [ref=e40]
+                - heading "1,234" [level=3] [ref=e45]
+              - paragraph [ref=e47]:
+                - img [ref=e48]
+                - text: 지난달 대비 +5%
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - generic [ref=e53]:
+                  - paragraph [ref=e54]: 이번 달 방문
+                  - img [ref=e55]
+                - heading "2,468" [level=3] [ref=e58]
+              - paragraph [ref=e60]:
+                - img [ref=e61]
+                - text: 지난달 대비 +10%
+            - generic [ref=e64]:
+              - generic [ref=e65]:
+                - generic [ref=e66]:
+                  - paragraph [ref=e67]: 전환율
+                  - img [ref=e68]
+                - heading "3.7%" [level=3] [ref=e71]
+              - paragraph [ref=e73]:
+                - img [ref=e74]
+                - text: 지난달 대비 +15%
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - heading "월간 목표 달성률" [level=3] [ref=e79]
+              - paragraph [ref=e80]: 이번 달 주요 지표 진행 현황
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]: 신규 사용자 목표
+                  - generic [ref=e85]: 62%
+                - progressbar [ref=e86]
+              - generic [ref=e88]:
+                - generic [ref=e89]:
+                  - generic [ref=e90]: 매출 목표
+                  - generic [ref=e91]: 81%
+                - progressbar [ref=e92]
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - generic [ref=e96]: 고객 만족도
+                  - generic [ref=e97]: 94%
+                - progressbar [ref=e98]
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - heading "최근 가입 사용자" [level=3] [ref=e102]
+              - paragraph [ref=e103]: 최근 5명의 신규 가입자
+            - table [ref=e106]:
+              - rowgroup [ref=e107]:
+                - row "이름 이메일 상태 가입일" [ref=e108]:
+                  - columnheader "이름" [ref=e109]
+                  - columnheader "이메일" [ref=e110]
+                  - columnheader "상태" [ref=e111]
+                  - columnheader "가입일" [ref=e112]
+              - rowgroup [ref=e113]:
+                - row "김민준 minjun@example.com 활성 2026-03-28" [ref=e114]:
+                  - cell "김민준" [ref=e115]
+                  - cell "minjun@example.com" [ref=e116]
+                  - cell "활성" [ref=e117]:
+                    - generic [ref=e118]: 활성
+                  - cell "2026-03-28" [ref=e119]
+                - row "이서연 seoyeon@example.com 활성 2026-03-27" [ref=e120]:
+                  - cell "이서연" [ref=e121]
+                  - cell "seoyeon@example.com" [ref=e122]
+                  - cell "활성" [ref=e123]:
+                    - generic [ref=e124]: 활성
+                  - cell "2026-03-27" [ref=e125]
+                - row "박지호 jiho@example.com 대기 2026-03-26" [ref=e126]:
+                  - cell "박지호" [ref=e127]
+                  - cell "jiho@example.com" [ref=e128]
+                  - cell "대기" [ref=e129]:
+                    - generic [ref=e130]: 대기
+                  - cell "2026-03-26" [ref=e131]
+                - row "최수아 sua@example.com 활성 2026-03-25" [ref=e132]:
+                  - cell "최수아" [ref=e133]
+                  - cell "sua@example.com" [ref=e134]
+                  - cell "활성" [ref=e135]:
+                    - generic [ref=e136]: 활성
+                  - cell "2026-03-25" [ref=e137]
+                - row "정도윤 doyun@example.com 비활성 2026-03-24" [ref=e138]:
+                  - cell "정도윤" [ref=e139]
+                  - cell "doyun@example.com" [ref=e140]
+                  - cell "비활성" [ref=e141]:
+                    - generic [ref=e142]: 비활성
+                  - cell "2026-03-24" [ref=e143]
+  - region "Notifications alt+T"

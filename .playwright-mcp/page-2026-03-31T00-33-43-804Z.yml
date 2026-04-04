@@ -1,0 +1,474 @@
+- generic [ref=e2]:
+  - region:
+    - generic:
+      - tooltip "This user is the author of this issue"
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e9]:
+        - button "Toggle navigation" [ref=e11] [cursor=pointer]
+        - link "Homepage" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img [ref=e18]
+        - generic [ref=e20]:
+          - link "Sign in" [ref=e21] [cursor=pointer]:
+            - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FEugeny%2Ftabby%2Fissues%2F10710
+          - button "Appearance settings" [ref=e24] [cursor=pointer]:
+            - img
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e32]:
+          - img [ref=e33]
+          - link "Eugeny" [ref=e36] [cursor=pointer]:
+            - /url: /Eugeny
+          - generic [ref=e37]: /
+          - strong [ref=e38]:
+            - link "tabby" [ref=e39] [cursor=pointer]:
+              - /url: /Eugeny/tabby
+          - generic [ref=e40]: Public
+        - generic [ref=e41]:
+          - list:
+            - listitem [ref=e42]:
+              - button "Sponsor Eugeny/tabby" [ref=e44] [cursor=pointer]:
+                - generic [ref=e46]:
+                  - img [ref=e47]
+                  - text: Sponsor
+            - listitem [ref=e49]:
+              - link "You must be signed in to change notification settings" [ref=e50] [cursor=pointer]:
+                - /url: /login?return_to=%2FEugeny%2Ftabby
+                - img [ref=e51]
+                - text: Notifications
+            - listitem [ref=e53]:
+              - link "Fork 3.9k" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=%2FEugeny%2Ftabby
+                - img [ref=e55]
+                - text: Fork
+                - generic "3,922" [ref=e57]: 3.9k
+            - listitem [ref=e58]:
+              - link "You must be signed in to star a repository" [ref=e60] [cursor=pointer]:
+                - /url: /login?return_to=%2FEugeny%2Ftabby
+                - img [ref=e61]
+                - text: Star
+                - generic "69933 users starred this repository" [ref=e63]: 69.9k
+      - navigation "Repository" [ref=e64]:
+        - list [ref=e65]:
+          - listitem [ref=e66]:
+            - link "Code" [ref=e67] [cursor=pointer]:
+              - /url: /Eugeny/tabby
+              - img [ref=e68]
+              - generic [ref=e70]: Code
+          - listitem [ref=e71]:
+            - link "Issues 2.5k" [ref=e72] [cursor=pointer]:
+              - /url: /Eugeny/tabby/issues
+              - img [ref=e73]
+              - generic [ref=e76]: Issues
+              - generic "2,545" [ref=e77]: 2.5k
+          - listitem [ref=e78]:
+            - link "Pull requests 84" [ref=e79] [cursor=pointer]:
+              - /url: /Eugeny/tabby/pulls
+              - img [ref=e80]
+              - generic [ref=e82]: Pull requests
+              - generic "84" [ref=e83]
+          - listitem [ref=e84]:
+            - link "Discussions" [ref=e85] [cursor=pointer]:
+              - /url: /Eugeny/tabby/discussions
+              - img [ref=e86]
+              - generic [ref=e88]: Discussions
+          - listitem [ref=e89]:
+            - link "Actions" [ref=e90] [cursor=pointer]:
+              - /url: /Eugeny/tabby/actions
+              - img [ref=e91]
+              - generic [ref=e93]: Actions
+          - listitem [ref=e94]:
+            - link "Projects" [ref=e95] [cursor=pointer]:
+              - /url: /Eugeny/tabby/projects
+              - img [ref=e96]
+              - generic [ref=e98]: Projects
+          - listitem [ref=e99]:
+            - link "Wiki" [ref=e100] [cursor=pointer]:
+              - /url: /Eugeny/tabby/wiki
+              - img [ref=e101]
+              - generic [ref=e103]: Wiki
+          - listitem [ref=e104]:
+            - link "Security 2" [ref=e105] [cursor=pointer]:
+              - /url: /Eugeny/tabby/security
+              - img [ref=e106]
+              - generic [ref=e108]: Security
+              - generic "2" [ref=e109]
+          - listitem [ref=e110]
+        - button "Additional navigation options" [ref=e114] [cursor=pointer]:
+          - img
+    - generic [ref=e122]:
+      - region "Header" [ref=e124]:
+        - generic [ref=e125]:
+          - 'heading "How can I change the line break? #10710" [level=1] [ref=e127]'
+          - generic [ref=e129]:
+            - link "New issue" [ref=e131] [cursor=pointer]:
+              - /url: /login?return_to=https://github.com/Eugeny/tabby/issues/10710
+              - generic [ref=e133]: New issue
+            - button "Copy link" [ref=e134] [cursor=pointer]:
+              - img [ref=e135]
+      - generic [ref=e143]:
+        - img "Issue" [ref=e144]
+        - text: Open
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - generic [ref=e151]:
+            - link "@Milor123's profile" [ref=e152] [cursor=pointer]:
+              - /url: https://github.com/Milor123
+              - img "@Milor123" [ref=e153]
+            - generic [ref=e154]:
+              - heading "Description" [level=2] [ref=e155]
+              - generic [ref=e157]:
+                - generic [ref=e159]:
+                  - generic [ref=e160]:
+                    - link "Milor123" [ref=e162] [cursor=pointer]:
+                      - /url: https://github.com/Milor123
+                    - generic [ref=e163]:
+                      - text: opened
+                      - link "on Sep 2, 2025on Sep 2, 2025" [ref=e164] [cursor=pointer]:
+                        - /url: https://github.com/Eugeny/tabby/issues/10710#issue-3375839138
+                        - generic "Sep 2, 2025, 9:32 PM GMT+9" [ref=e165]: on Sep 2, 2025on Sep 2, 2025
+                      - generic [ref=e166]:
+                        - text: ·
+                        - generic [ref=e167]:
+                          - text: edited by
+                          - link "Milor123" [ref=e168] [cursor=pointer]:
+                            - /url: https://github.com/Milor123
+                  - generic [ref=e169]:
+                    - button "Open edits" [ref=e172] [cursor=pointer]:
+                      - generic [ref=e174]: Edits
+                      - generic:
+                        - img
+                    - button "Issue body actions" [ref=e177] [cursor=pointer]:
+                      - img [ref=e178]
+                - generic [ref=e180]:
+                  - generic [ref=e182]:
+                    - paragraph [ref=e183]: Hi guys!
+                    - paragraph [ref=e184]:
+                      - text: I'm trying to use
+                      - strong [ref=e185]:
+                        - code [ref=e186]: Qwen-CLI
+                      - text: or
+                      - strong [ref=e187]:
+                        - code [ref=e188]: gemini-CLI
+                      - text: in tabby, but I'm having an issue—I'm not sure if it's a bug or not.
+                    - paragraph [ref=e189]: But the truth is that I can't make line breaks while typing, which is very important to me.
+                    - link "Image" [ref=e190] [cursor=pointer]:
+                      - /url: https://private-user-images.githubusercontent.com/14153649/484565471-8502d626-8a64-4fbf-aa63-127870e7bc98.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzQ5MTc1MjIsIm5iZiI6MTc3NDkxNzIyMiwicGF0aCI6Ii8xNDE1MzY0OS80ODQ1NjU0NzEtODUwMmQ2MjYtOGE2NC00ZmJmLWFhNjMtMTI3ODcwZTdiYzk4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAzMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMzMxVDAwMzM0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWViOGQwM2Y2YjhkNzE4MmQyZjU5N2UwZWIwNmE1YzY4ZDQwZDIxMzZlNzU3NWNkZGI4NDhkZjg1NDlhYjczN2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.JXxFuaUHiCpl40NpD0Mt8-03XHUlywp18LetTsCAWgE
+                      - img "Image" [ref=e191]
+                    - paragraph [ref=e192]:
+                      - text: I’ve found that I can insert a line break using
+                      - code [ref=e193]: Shift-Alt-Enter
+                      - text: . How can I change this?
+                  - toolbar "Reactions" [ref=e195]:
+                    - switch "👍 1 reaction" [ref=e196]:
+                      - generic [ref=e197]:
+                        - generic: 👍
+                        - generic [ref=e198]:
+                          - generic [ref=e199]: React with 👍
+                          - text: "1"
+          - generic [ref=e201]:
+            - generic [ref=e202]:
+              - heading "Activity" [level=2] [ref=e203]
+              - generic [ref=e204]:
+                - generic [ref=e205]:
+                  - link "@ben91lin's profile" [ref=e206] [cursor=pointer]:
+                    - /url: https://github.com/ben91lin
+                    - img "ben91lin" [ref=e207]
+                  - generic [ref=e214]:
+                    - generic [ref=e216]:
+                      - heading "ben91lin commented on Sep 6, 2025 on Sep 6, 2025" [level=3] [ref=e217]:
+                        - text: ben91lin commented
+                        - generic "Sep 6, 2025, 2:12 AM GMT+9" [ref=e218]: on Sep 6, 2025 on Sep 6, 2025
+                      - generic [ref=e219]:
+                        - link "ben91lin" [ref=e221] [cursor=pointer]:
+                          - /url: /ben91lin
+                        - generic [ref=e222]:
+                          - link "on Sep 6, 2025on Sep 6, 2025" [ref=e224] [cursor=pointer]:
+                            - /url: https://github.com/Eugeny/tabby/issues/10710#issuecomment-3259176604
+                            - generic "Sep 6, 2025, 2:12 AM GMT+9" [ref=e225]: on Sep 6, 2025on Sep 6, 2025
+                          - generic [ref=e226]:
+                            - text: ·
+                            - generic [ref=e227]:
+                              - text: edited by
+                              - link "ben91lin" [ref=e228] [cursor=pointer]:
+                                - /url: https://github.com/ben91lin
+                      - generic [ref=e229]:
+                        - button "Open edits" [ref=e232] [cursor=pointer]:
+                          - generic [ref=e234]: Edits
+                          - generic:
+                            - img
+                        - button "Actions for ben91lin's comment, 2:12 AM on September 6, 2025" [ref=e237] [cursor=pointer]:
+                          - img [ref=e238]
+                    - generic [ref=e240]:
+                      - generic [ref=e242]:
+                        - paragraph [ref=e243]: Hi, I wrote this with claude code. you can find it in the plugin.
+                        - paragraph [ref=e244]:
+                          - link "https://www.npmjs.com/package/tabby-backslash-newline" [ref=e245] [cursor=pointer]:
+                            - /url: https://www.npmjs.com/package/tabby-backslash-newline
+                        - paragraph [ref=e246]: You can customize the hotkeys after installation.
+                      - toolbar "Reactions" [ref=e247]:
+                        - switch "👍 1 reaction" [ref=e248]:
+                          - generic [ref=e249]:
+                            - generic: 👍
+                            - generic [ref=e250]:
+                              - generic [ref=e251]: React with 👍
+                              - text: "1"
+                        - switch "❤️ 4 reactions" [ref=e252]:
+                          - generic [ref=e253]:
+                            - generic: ❤️
+                            - generic [ref=e254]:
+                              - generic [ref=e255]: React with ❤️
+                              - text: "4"
+                - generic [ref=e256]:
+                  - link "@Milor123's profile" [ref=e257] [cursor=pointer]:
+                    - /url: https://github.com/Milor123
+                    - img "Milor123" [ref=e258]
+                  - generic [ref=e265]:
+                    - generic [ref=e267]:
+                      - heading "Milor123 commented on Sep 12, 2025 on Sep 12, 2025" [level=3] [ref=e268]:
+                        - text: Milor123 commented
+                        - generic "Sep 12, 2025, 7:42 AM GMT+9" [ref=e269]: on Sep 12, 2025 on Sep 12, 2025
+                      - generic [ref=e270]:
+                        - link "Milor123" [ref=e272] [cursor=pointer]:
+                          - /url: /Milor123
+                        - generic [ref=e273]:
+                          - link "on Sep 12, 2025on Sep 12, 2025" [ref=e275] [cursor=pointer]:
+                            - /url: https://github.com/Eugeny/tabby/issues/10710#issuecomment-3282855990
+                            - generic "Sep 12, 2025, 7:42 AM GMT+9" [ref=e276]: on Sep 12, 2025on Sep 12, 2025
+                          - generic [ref=e277]:
+                            - text: ·
+                            - generic [ref=e278]:
+                              - text: edited by
+                              - link "Milor123" [ref=e279] [cursor=pointer]:
+                                - /url: https://github.com/Milor123
+                      - generic [ref=e280]:
+                        - button "Open edits" [ref=e283] [cursor=pointer]:
+                          - generic [ref=e285]: Edits
+                          - generic:
+                            - img
+                        - generic [ref=e286]:
+                          - generic "This user is the author of this issue" [ref=e288]: Author
+                          - button "Actions for Milor123's comment, 7:42 AM on September 12, 2025" [ref=e290] [cursor=pointer]:
+                            - img [ref=e291]
+                    - generic [ref=e293]:
+                      - generic [ref=e295]:
+                        - blockquote [ref=e296]:
+                          - paragraph [ref=e297]: Hi, I wrote this with claude code. you can find it in the plugin.
+                          - paragraph [ref=e298]:
+                            - link "https://www.npmjs.com/package/tabby-backslash-newline" [ref=e299] [cursor=pointer]:
+                              - /url: https://www.npmjs.com/package/tabby-backslash-newline
+                          - paragraph [ref=e300]: You can customize the hotkeys after installation.
+                        - paragraph [ref=e301]:
+                          - text: Buddy, your script works, but it keeps a literal
+                          - code [ref=e302]: \
+                          - text: when I use it; instead of a clean line break it gives me a
+                          - code [ref=e303]: \
+                          - text: break.
+                        - paragraph [ref=e304]: For example, when I perform the awkward line break that comes by default with Shift+Alt+Enter, it does produce a clean line break.
+                        - paragraph [ref=e305]:
+                          - text: Can we get rid of that annoying
+                          - code [ref=e306]: \
+                          - text: your script leaves at the line break?
+                        - link "Image" [ref=e307] [cursor=pointer]:
+                          - /url: https://private-user-images.githubusercontent.com/14153649/488573497-1b0e740b-3c35-4f44-aed1-9977fd49fd7c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzQ5MTc1MjIsIm5iZiI6MTc3NDkxNzIyMiwicGF0aCI6Ii8xNDE1MzY0OS80ODg1NzM0OTctMWIwZTc0MGItM2MzNS00ZjQ0LWFlZDEtOTk3N2ZkNDlmZDdjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAzMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMzMxVDAwMzM0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRjNTZmNzM1NjIwYzVlNjBjNjk2YzZmZWFlNGFkOWVhZDhmY2MyNGJiMjZlOGEzM2FiOGM2NTBlYzljN2VjODAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._VTnA3691JFubNdCJ5F3KSpoBFwUO-D9BHXy9IdW2Dw
+                          - img "Image" [ref=e308]
+                        - blockquote [ref=e309]:
+                          - link:
+                            - /url: https://camo.githubusercontent.com/38d1348f8eb76bcff713a92c0cfe80386550cbfd83f1fb917a37f94cbffcc90b/68747470733a2f2f7374617469632d70726f64756374696f6e2e6e706d6a732e636f6d2f33333865343930356132363834636139366530386337373830666336383431322e706e67
+                            - img [ref=e310] [cursor=pointer]
+                          - generic [ref=e311]:
+                            - link [ref=e312] [cursor=pointer]:
+                              - /url: https://camo.githubusercontent.com/eed16500f471cf70a5478fd5285812428876e972ac25f8b1b127dde6ddd4b72a/68747470733a2f2f7374617469632d70726f64756374696f6e2e6e706d6a732e636f6d2f64613361623430666230383631643135633833383534633239663566323936322e706e67
+                              - img [ref=e313]
+                            - text: npm
+                          - strong [ref=e315]:
+                            - link "tabby-backslash-newline" [ref=e316] [cursor=pointer]:
+                              - /url: https://www.npmjs.com/package/tabby-backslash-newline
+                          - generic [ref=e317]: "Tabby plugin that sends backslash newline (\\\\n) for line continuation. Latest version: 1.0.2, last published: 4 days ago. Start using tabby-backslash-newline in your project by running `npm i tabby-backslash-newline`. There are no other projects in the npm registry using tabby-backslash-newline."
+                      - toolbar "Reactions"
+                - generic [ref=e318]:
+                  - link "@ben91lin's profile" [ref=e319] [cursor=pointer]:
+                    - /url: https://github.com/ben91lin
+                    - img "ben91lin" [ref=e320]
+                  - generic [ref=e327]:
+                    - generic [ref=e329]:
+                      - heading "ben91lin commented on Sep 16, 2025 on Sep 16, 2025" [level=3] [ref=e330]:
+                        - text: ben91lin commented
+                        - generic "Sep 16, 2025, 2:03 PM GMT+9" [ref=e331]: on Sep 16, 2025 on Sep 16, 2025
+                      - generic [ref=e332]:
+                        - link "ben91lin" [ref=e334] [cursor=pointer]:
+                          - /url: /ben91lin
+                        - generic [ref=e335]:
+                          - link "on Sep 16, 2025on Sep 16, 2025" [ref=e337] [cursor=pointer]:
+                            - /url: https://github.com/Eugeny/tabby/issues/10710#issuecomment-3295250441
+                            - generic "Sep 16, 2025, 2:03 PM GMT+9" [ref=e338]: on Sep 16, 2025on Sep 16, 2025
+                          - generic [ref=e339]:
+                            - text: ·
+                            - generic [ref=e340]:
+                              - text: edited by
+                              - link "ben91lin" [ref=e341] [cursor=pointer]:
+                                - /url: https://github.com/ben91lin
+                      - generic [ref=e342]:
+                        - button "Open edits" [ref=e345] [cursor=pointer]:
+                          - generic [ref=e347]: Edits
+                          - generic:
+                            - img
+                        - button "Actions for ben91lin's comment, 2:03 PM on September 16, 2025" [ref=e350] [cursor=pointer]:
+                          - img [ref=e351]
+                    - generic [ref=e353]:
+                      - paragraph [ref=e356]: Hey, I added a Settings tab in version 1.0.3 to allow customization of the input text. This should help clean up the line breaks and remove the unwanted backslash (\).
+                      - toolbar "Reactions" [ref=e357]:
+                        - switch "❤️ 1 reaction" [ref=e358]:
+                          - generic [ref=e359]:
+                            - generic: ❤️
+                            - generic [ref=e360]:
+                              - generic [ref=e361]: React with ❤️
+                              - text: "1"
+                - generic [ref=e362]:
+                  - link "@peixotorms's profile" [ref=e363] [cursor=pointer]:
+                    - /url: https://github.com/peixotorms
+                    - img "peixotorms" [ref=e364]
+                  - generic [ref=e371]:
+                    - generic [ref=e373]:
+                      - heading "peixotorms commented on Oct 3, 2025 on Oct 3, 2025" [level=3] [ref=e374]:
+                        - text: peixotorms commented
+                        - generic "Oct 3, 2025, 2:17 AM GMT+9" [ref=e375]: on Oct 3, 2025 on Oct 3, 2025
+                      - generic [ref=e376]:
+                        - link "peixotorms" [ref=e378] [cursor=pointer]:
+                          - /url: /peixotorms
+                        - link "on Oct 3, 2025on Oct 3, 2025" [ref=e381] [cursor=pointer]:
+                          - /url: https://github.com/Eugeny/tabby/issues/10710#issuecomment-3362244899
+                          - generic "Oct 3, 2025, 2:17 AM GMT+9" [ref=e382]: on Oct 3, 2025on Oct 3, 2025
+                      - button "Actions for peixotorms's comment, 2:17 AM on October 3, 2025" [ref=e386] [cursor=pointer]:
+                        - img [ref=e387]
+                    - generic [ref=e389]:
+                      - generic [ref=e391]:
+                        - blockquote [ref=e392]:
+                          - paragraph [ref=e393]: Hey, I added a Settings tab in version 1.0.3 to allow customization of the input text. This should help clean up the line breaks and remove the unwanted backslash ().
+                        - paragraph [ref=e394]: Thank you for this, just setting it as \n removes the extra \ and it solves claude code via ssh issue, instead of having to type ctrl + j
+                      - toolbar "Reactions"
+                - generic [ref=e395]:
+                  - link "@joshjordan's profile" [ref=e396] [cursor=pointer]:
+                    - /url: https://github.com/joshjordan
+                    - img "joshjordan" [ref=e397]
+                  - generic [ref=e404]:
+                    - generic [ref=e406]:
+                      - heading "joshjordan commented on Mar 10, 2026 3 weeks ago" [level=3] [ref=e407]:
+                        - text: joshjordan commented
+                        - generic "Mar 10, 2026, 1:34 PM GMT+9" [ref=e408]: on Mar 10, 2026 3 weeks ago
+                      - generic [ref=e409]:
+                        - link "joshjordan" [ref=e411] [cursor=pointer]:
+                          - /url: /joshjordan
+                        - link "on Mar 10, 20263 weeks ago" [ref=e414] [cursor=pointer]:
+                          - /url: https://github.com/Eugeny/tabby/issues/10710#issuecomment-4028594687
+                          - generic "Mar 10, 2026, 1:34 PM GMT+9" [ref=e415]: on Mar 10, 20263 weeks ago
+                      - button "Actions for joshjordan's comment, 1:34 PM on March 10" [ref=e419] [cursor=pointer]:
+                        - img [ref=e420]
+                    - generic [ref=e422]:
+                      - paragraph [ref=e425]: We need to download a plugin to get a line break?
+                      - toolbar "Reactions"
+            - generic [ref=e426]:
+              - link "Sign up for free" [ref=e427] [cursor=pointer]:
+                - /url: /signup?return_to=https://github.com/Eugeny/tabby/issues/10710
+                - generic [ref=e429]: Sign up for free
+              - generic [ref=e430]:
+                - strong [ref=e431]: to join this conversation on GitHub.
+                - text: Already have an account?
+              - link "Sign in to comment" [ref=e432] [cursor=pointer]:
+                - /url: /login?return_to=https://github.com/Eugeny/tabby/issues/10710
+        - generic [ref=e434]:
+          - heading "Metadata" [level=2] [ref=e435]
+          - generic [ref=e437]:
+            - generic [ref=e439]:
+              - generic [ref=e440]:
+                - heading "Assignees" [level=3]
+              - generic [ref=e441]: No one assigned
+            - generic [ref=e443]:
+              - generic [ref=e444]:
+                - heading "Labels" [level=3]
+              - generic [ref=e445]: No labels
+            - generic [ref=e447]:
+              - generic [ref=e448]:
+                - heading "Projects" [level=3]
+              - generic [ref=e449]: No projects
+            - generic [ref=e451]:
+              - generic [ref=e452]:
+                - heading "Milestone" [level=3]
+              - generic [ref=e453]: No milestone
+            - generic [ref=e455]:
+              - generic [ref=e456]:
+                - heading "Relationships" [level=3]
+              - generic [ref=e457]: None yet
+            - generic [ref=e458]:
+              - generic [ref=e460]:
+                - heading "Development" [level=3]
+              - generic [ref=e461]:
+                - generic [ref=e463]:
+                  - button "Code with agent mode" [ref=e465] [cursor=pointer]:
+                    - generic [ref=e466]:
+                      - generic:
+                        - img
+                      - generic [ref=e467]: Code with agent mode
+                  - button "Select code repository" [ref=e470] [cursor=pointer]:
+                    - img [ref=e471]
+                - generic [ref=e473]: No branches or pull requests
+                - list
+            - generic [ref=e474]:
+              - generic [ref=e476]:
+                - heading "Participants" [level=3]
+              - generic [ref=e479]:
+                - link "@joshjordan" [ref=e480] [cursor=pointer]:
+                  - /url: /joshjordan
+                  - img "@joshjordan" [ref=e481]
+                - link "@Milor123" [ref=e482] [cursor=pointer]:
+                  - /url: /Milor123
+                  - img "@Milor123" [ref=e483]
+                - link "@peixotorms" [ref=e484] [cursor=pointer]:
+                  - /url: /peixotorms
+                  - img "@peixotorms" [ref=e485]
+                - link "@ben91lin" [ref=e486] [cursor=pointer]:
+                  - /url: /ben91lin
+                  - img "@ben91lin" [ref=e487]
+            - heading "Issue actions" [level=2] [ref=e488]
+            - list
+  - contentinfo [ref=e489]:
+    - heading "Footer" [level=2] [ref=e490]
+    - generic [ref=e491]:
+      - generic [ref=e492]:
+        - link "GitHub Homepage" [ref=e493] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e494]
+        - generic [ref=e496]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e497]:
+        - heading "Footer navigation" [level=3] [ref=e498]
+        - list "Footer navigation" [ref=e499]:
+          - listitem [ref=e500]:
+            - link "Terms" [ref=e501] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e502]:
+            - link "Privacy" [ref=e503] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e504]:
+            - link "Security" [ref=e505] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e506]:
+            - link "Status" [ref=e507] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e508]:
+            - link "Community" [ref=e509] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e510]:
+            - link "Docs" [ref=e511] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e512]:
+            - link "Contact" [ref=e513] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e514]:
+            - button "Manage cookies" [ref=e516] [cursor=pointer]
+          - listitem [ref=e517]:
+            - button "Do not share my personal information" [ref=e519] [cursor=pointer]
