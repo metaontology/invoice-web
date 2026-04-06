@@ -1,7 +1,7 @@
 # Roadmap 규칙
 
 ## 📍 로드맵 파일 경로
-- **파일**: `docs/roadmap/roadmap.md`
+- **파일**: `docs/ROADMAP.md`
 
 ## 📋 Task 포맷
 

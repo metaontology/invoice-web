@@ -1,0 +1,2 @@
+﻿invoice_code,client_name,expires_at,issued_at,item,status,total_amount
+INV-2025-001,ABC,2025년 10월 7일,2025년 10월 1일,"DESIGN-001 (https://www.notion.so/DESIGN-001-32a6519fad1b8066a121d72427065d9c?pvs=21), DESIGN-002 (https://www.notion.so/DESIGN-002-32a6519fad1b805c9c64ce0bcf264113?pvs=21), DEGISN-003 (https://www.notion.so/DEGISN-003-32a6519fad1b8015b089feba6b209399?pvs=21)",pending,"₩5,000,000"

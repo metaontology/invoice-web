@@ -1,0 +1,1 @@
+- [@notionhq/client v5 dataSources.query](feedback_notionhq_v5_api.md) — databases.query 제거됨, dataSources.query + data_source_id 사용

@@ -34,7 +34,7 @@
       "env": {
         "DATA_DIR": "./shrimp_data",
         "TEMPLATES_USE": "en",  
-        "ENABLE_GUI": "false"
+        "ENABLE_GUI": "true"
       }
     },
     "serena": {
