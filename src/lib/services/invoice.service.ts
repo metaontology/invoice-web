@@ -2,7 +2,7 @@ import { unstable_cache } from "next/cache"
 import { APIResponseError } from "@notionhq/client"
 import type { Invoice } from "@/types/invoice"
 import type { NotionPage } from "@/types/notion"
-import { notion } from "@/lib/notion"
+import { getNotionClient } from "@/lib/notion"
 import { parseInvoicePage, parseItemPage } from "@/lib/utils/notion-parser"
 import { CACHE_TTL } from "@/lib/config"
 
@@ -16,11 +16,11 @@ import { CACHE_TTL } from "@/lib/config"
 async function getInvoiceRaw(notionPageId: string): Promise<Invoice | null> {
   try {
     // 견적서 기본 정보 조회
-    const page = await notion.pages.retrieve({ page_id: notionPageId })
+    const page = await getNotionClient().pages.retrieve({ page_id: notionPageId })
 
     // 연결된 항목 조회 (Items DB에서 invoice Relation 역방향 필터링)
     // @notionhq/client v5: databases.query → dataSources.query, database_id → data_source_id
-    const itemsResult = await notion.dataSources.query({
+    const itemsResult = await getNotionClient().dataSources.query({
       data_source_id: process.env.NOTION_ITEMS_DATABASE_ID!,
       filter: {
         property: "Invoice",
