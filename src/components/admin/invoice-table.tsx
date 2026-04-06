@@ -13,6 +13,8 @@ import {
   TableCaption,
 } from "@/components/ui/table"
 import { StatusBadge } from "@/components/admin/status-badge"
+import { LinkColumn } from "@/components/admin/link-column"
+import { generateInvoiceUrl } from "@/lib/utils/link-generator"
 import type { Invoice } from "@/types/invoice"
 
 /** 정렬 가능한 컬럼 정의 */
@@ -22,6 +24,7 @@ const SORTABLE_COLUMNS = [
   { key: "issued_at", label: "발행일", sortable: true },
   { key: "status", label: "상태", sortable: false },
   { key: "total_amount", label: "총액", sortable: true },
+  { key: "link", label: "링크", sortable: false },
 ] as const
 
 type SortableKey = "client_name" | "issued_at" | "total_amount"
@@ -204,6 +207,12 @@ export function InvoiceTable({ invoices, currentSort, currentOrder, query }: Inv
             </TableCell>
             <TableCell className="text-right font-medium">
               {formatAmount(invoice.total_amount)}
+            </TableCell>
+            <TableCell>
+              <LinkColumn
+                invoiceId={invoice.id}
+                invoiceUrl={generateInvoiceUrl(invoice.id)}
+              />
             </TableCell>
           </TableRow>
         ))}
