@@ -6,6 +6,7 @@
 /** 필수 환경변수 목록 */
 const REQUIRED_ENV_VARS = [
   "NOTION_API_KEY",
+  "NOTION_INVOICES_DATABASE_ID",
   "NOTION_ITEMS_DATABASE_ID",
 ] as const
 
