@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "src/app/api/invoice/pdf/route.ts": {
+      "maxDuration": 60
+    }
+  }
+}
