@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation"
 import type { Metadata } from "next"
 import { getInvoice } from "@/lib/services/invoice.service"
+import { siteConfig } from "@/lib/constants/site"
 import { InvoiceHeader } from "@/components/invoice/invoice-header"
 import { InvoiceClientSection } from "@/components/invoice/invoice-client-section"
 import { InvoiceItemsTable } from "@/components/invoice/invoice-items-table"
@@ -22,8 +23,22 @@ export async function generateMetadata({
     return { title: "견적서" }
   }
 
+  // 환경 변수 우선, 없으면 siteConfig.url 사용
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL ?? siteConfig.url
+  const invoiceUrl = `${baseUrl}/invoice/${notionPageId}`
+  const title = `${invoice.invoice_code} | 견적서`
+  const description = `${invoice.client_name} 견적서 — ${invoice.invoice_code}`
+
   return {
-    title: `${invoice.invoice_code} | 견적서`,
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: invoiceUrl,
+      siteName: siteConfig.name,
+      type: "website",
+    },
   }
 }
 
