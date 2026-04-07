@@ -6,6 +6,7 @@
 import Link from "next/link"
 import { FileText, LogOut } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { ThemeToggle } from "@/components/features/theme-toggle"
 import { logout } from "@/lib/auth/actions"
 
 export function AdminNav() {
@@ -33,13 +34,16 @@ export function AdminNav() {
           </nav>
         </div>
 
-        {/* 로그아웃 버튼 */}
-        <form action={logout}>
-          <Button type="submit" variant="ghost" size="sm" className="gap-2">
-            <LogOut className="h-4 w-4" />
-            <span>로그아웃</span>
-          </Button>
-        </form>
+        {/* 우측 액션 영역: 테마 토글 + 로그아웃 */}
+        <div className="flex items-center gap-1">
+          <ThemeToggle />
+          <form action={logout}>
+            <Button type="submit" variant="ghost" size="sm" className="gap-2">
+              <LogOut className="h-4 w-4" />
+              <span>로그아웃</span>
+            </Button>
+          </form>
+        </div>
       </div>
     </header>
   )
