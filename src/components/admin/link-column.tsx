@@ -3,6 +3,7 @@
 import { ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { CopyButton } from "@/components/admin/copy-button"
+import { ShareDropdown } from "@/components/admin/share-dropdown"
 
 interface LinkColumnProps {
   invoiceId: string
@@ -42,6 +43,9 @@ export function LinkColumn({ invoiceId: _invoiceId, invoiceUrl }: LinkColumnProp
 
       {/* 링크 복사 버튼 */}
       <CopyButton text={invoiceUrl} ariaLabel="견적서 링크 복사" />
+
+      {/* 공유 드롭다운 버튼 */}
+      <ShareDropdown url={invoiceUrl} />
     </div>
   )
 }
