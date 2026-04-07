@@ -3,8 +3,8 @@
  * 서버 시작 시 필수 환경변수 존재 여부를 확인하여 명확한 오류를 제공합니다.
  */
 
-/** 필수 환경변수 목록 */
-const REQUIRED_ENV_VARS = [
+/** 서버 전용 필수 환경변수 목록 */
+const REQUIRED_SERVER_ENV_VARS = [
   "NOTION_API_KEY",
   "NOTION_INVOICES_DATABASE_ID",
   "NOTION_ITEMS_DATABASE_ID",
@@ -12,7 +12,9 @@ const REQUIRED_ENV_VARS = [
 
 /** 환경변수 유효성 검사 — 누락된 변수가 있으면 오류를 throw */
 export function validateEnv(): void {
-  const missing = REQUIRED_ENV_VARS.filter((key) => !process.env[key])
+  const missing = REQUIRED_SERVER_ENV_VARS.filter(
+    (key) => !process.env[key]
+  )
 
   if (missing.length > 0) {
     throw new Error(
